@@ -1,0 +1,35 @@
+# Python Virtual Environments
+my_env/
+venv/
+env/
+.venv/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Massive Raw Training Datasets (>50MB, exceeds GitHub 100MB limit)
+can_bus_merged.csv
+DoS_dataset.csv
+Fuzzy_dataset.csv
+gear_dataset.csv
+RPM_dataset.csv
+normal_run_data.txt
+OpelAstra/
+RenaultClio/
+tue_dataset_extracted/
+
+# Unrelated project builds
+compendium_build/
+
+# Temporary & Lock files
+~$*
+*.tmp
+*.log.tmp
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
